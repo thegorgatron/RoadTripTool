@@ -1,0 +1,11 @@
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+#map-canvas { height: 100% }
+#directionsPanel { position: absolute; height: 40px; bottom: 0px; right: 0px; width:150px; overflow-y: visible; z-index: 3; background: rgba(200, 200, 200, .5); display: none; transition:all .35s;-webkit-transition:all .35s; transition-timing-function: ease-out; -webkit-transition-timing-function: ease-out; border: solid 1px #CCCCCC}
+#directionsPanel:hover { position: absolute; height: 85%; bottom: 0px; right: 0px; width:400px; overflow-y: scroll; z-index: 3; background: rgba(200, 200, 200, .9); border: solid 1px #CCCCCC}
+#locationBox { display:inline; position: absolute; left: 30%; top: 5%; z-index: 1 }
+#start { margin: auto }
+#end { margin: auto  }
+#find { display:inline-block;  }
+#mainNav { position: absolute; z-index: 1; margin: auto; background: #FFC0CB; top: 2.5%; width: 75%; left:0; right:0; }
+#locationBox { margin: 0 auto; }
